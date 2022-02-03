@@ -2,6 +2,7 @@ package com.example.banddatabase;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,9 +24,12 @@ public class BandRepository {
         Resources res = context.getResources();
         String[] bands = res.getStringArray(R.array.bands);
         String[] descriptions = res.getStringArray(R.array.descriptions);
+        String[] url = res.getStringArray(R.array.URL);
         for (int i = 0; i < bands.length; i++) {
-            mBands.add(new Band(i + 1, bands[i], descriptions[i]));
+            mBands.add(new Band(i + 1, bands[i], descriptions[i], url[i]));
         }
+
+
     }
 
     public List<Band> getBands() {

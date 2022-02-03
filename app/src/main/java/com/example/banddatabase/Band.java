@@ -5,18 +5,22 @@ public class Band {
     private int mId;
     private String mName;
     private String mDescription;
+    private String mURL;
 
     public Band() {}
 
-    public Band(int id, String name, String description) {
+    public Band(int id, String name, String description, String url) {
         mId = id;
         mName = name;
         mDescription = description;
+        mURL = url;
     }
 
     public int getId() {
         return mId;
     }
+
+    public String getUrl(){return mURL;}
 
     public void setId(int id) {
         this.mId = id;

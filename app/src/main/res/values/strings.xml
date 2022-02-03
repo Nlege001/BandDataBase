@@ -15,9 +15,9 @@
         <item>An Irish rock band from Dublin that formed in 1976.</item>
     </string-array>
 
-    <String-array name = "url">
-        <item></item>
-        <item></item>
-        <item></item>
-    </String-array>
+    <array name = "URL">
+        <item>https://github.com/GantTechClass/my-star-wars-name-app-Nlege001/blob/master/beatlesImg.jpeg</item>
+        <item>https://github.com/GantTechClass/my-star-wars-name-app-Nlege001/blob/master/nirvanaImg.jpeg</item>
+        <item>https://github.com/GantTechClass/my-star-wars-name-app-Nlege001/blob/master/u2Img.jpeg</item>
+    </array>
 </resources>
